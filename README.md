@@ -6,7 +6,7 @@ Swift单元测试示例,包含常用断言、函数功能、UI界面、运行性
 * 新建项目勾选Include Unit Tests,可以自动生成"项目名+Tests"的Target，对于已有项目，新建单元测试Target命名也应遵循"项目名+Tests";
 * 基于官方默认测试类，包含了一个setUp()方法和tearDown()方法，分别用来在每个测试方法运行之前做初始化准备，和在测试方法运行之后做清理工作；
 * 类中所有的测试方法的名字都要以 test 关键字开头，否则 Xcode 无法识别；
-
+* 工程Target和测试Target中对应的包名、类，分别一一对应"包名+Test"、"类名+Test";
 
 ## 为什么做单元测试：
 * **1.帮助理解需求**
@@ -45,17 +45,12 @@ Swift单元测试示例,包含常用断言、函数功能、UI界面、运行性
 
 ![](testview.png "测试结果")
 
-#### 参考文章
 
-1. [Unit Testing in Xcode 7 with Swift](http://www.appcoda.com/unit-testing-swift/)
+### 参考文章
+* 1. [Unit Testing in Xcode 7 with Swift](http://www.appcoda.com/unit-testing-swift/)
+* 2. [Xcode7 中用 Swift 做单元测试](https://segmentfault.com/a/1190000004525872)
+* 3.[XCTest​Case /XCTest​Expectation /measure​Block()](http://nshipster.com/xctestcase/) 
+* 4. [使用Xcode自带的单元测试](http://www.cnblogs.com/sunshine-anycall/p/4155649.html)
+* 5. [Swift单元测试介绍](http://letsswift.com/2014/06/swift-unit-test/) 
 
-2. [Xcode7 中用 Swift 做单元测试](https://segmentfault.com/a/1190000004525872)
-
-3.[XCTest​Case /XCTest​Expectation /measure​Block()](http://nshipster.com/xctestcase/) 
-
-4. [使用Xcode自带的单元测试](http://www.cnblogs.com/sunshine-anycall/p/4155649.html)
-
-5. [Swift单元测试介绍](http://letsswift.com/2014/06/swift-unit-test/) 
-
-
-* 如果喜欢的话,欢迎 **star** 一下
+如果喜欢的话,欢迎 **star** 一下
