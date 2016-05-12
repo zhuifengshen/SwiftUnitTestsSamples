@@ -1,1 +1,0 @@
-# Swift Uint Tests Sample
