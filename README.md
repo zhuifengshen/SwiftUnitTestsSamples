@@ -38,16 +38,16 @@ Swift单元测试示例,包含常用断言、函数功能、UI界面、运行性
 
 一个模块很难进行单元测试通常是不良设计的信号，单元测试可以反过来指导设计出高内聚、低耦合的模块。
 
-### 工程运行截图
+## 示例截图
 
 ![](view.png "运行截图")
 
-### 测试运行截图
+## 测试运行截图
 
 ![](testview.png "测试结果")
 
 
-### 参考文章
+## 参考文章
 * 1. [Unit Testing in Xcode 7 with Swift](http://www.appcoda.com/unit-testing-swift/)
 * 2. [Xcode7 中用 Swift 做单元测试](https://segmentfault.com/a/1190000004525872)
 * 3.[XCTest​Case /XCTest​Expectation /measure​Block()](http://nshipster.com/xctestcase/) 
